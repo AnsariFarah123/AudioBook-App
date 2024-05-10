@@ -38,6 +38,6 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
-   implementation("com.airbnb.android:lottie:3.4.0")
+    implementation("com.airbnb.android:lottie:3.4.0")
 
 }
