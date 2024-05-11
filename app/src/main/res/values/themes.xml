@@ -302,5 +302,245 @@
         <item name="android:drawableTint">@color/white</item>
     </style>
 
+    <style name="outlineIconButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/buttons_outline_bg</item>
+        <item name="android:textColor">@color/primary_50</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:drawableTint">@color/primary_50</item>
+    </style>
 
+    <style name="ghostIconButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/buttons_outline_bg</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="android:textColor">@color/primary_50</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:drawableTint">@color/primary_50</item>
+    </style>
+
+    <style name="flatIconButtonDisabled">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/buttons_flat_bg</item>
+        <item name="android:backgroundTint">@color/primary_50</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:drawableTint">@color/white</item>
+        <item name="android:alpha">0.2</item>
+    </style>
+
+    <style name="outlineIconButtonDisabled">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/buttons_outline_bg</item>
+        <item name="android:textColor">@color/primary_50</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:drawableTint">@color/primary_50</item>
+        <item name="android:alpha">0.2</item>
+    </style>
+
+    <style name="ghostIconButtonDisabled">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/buttons_outline_bg</item>
+        <item name="android:backgroundTint">@color/transparent</item>
+        <item name="android:textColor">@color/primary_50</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:drawableTint">@color/primary_50</item>
+        <item name="android:alpha">0.2</item>
+    </style>
+
+    <!--    Input Field-->
+
+    <style name="inputText">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:textColor">@color/neutral_80</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">@drawable/input_placeholder</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+
+    <!--    OnBoarding-->
+
+    <style name="onBoardingImg1">
+        <item name="android:src">@drawable/people</item>
+    </style>
+
+    <style name="onBoardingTitle">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+    </style>
+
+    <style name="onBoardingContent">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+    </style>
+
+
+    <!--    Error-->
+    <style name="errorImg">
+        <item name="android:src">@drawable/error</item>
+    </style>
+
+    <!--    App Bar-->
+
+    <style name="appBarTitle">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+    </style>
+
+    <style name="appBarIcon">
+        <item name="android:tint">@color/neutral_80</item>
+    </style>
+
+    <style name="horizontalRow">
+        <item name="android:background">@color/primary_5</item>
+    </style>
+
+    <!--    Authentications-->
+
+    <style name="authLogo">
+        <item name="android:src">@drawable/logo</item>
+    </style>
+
+    <style name="authTitle">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+    </style>
+
+    <style name="authCheckbox">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+        <item name="android:buttonTint">@color/primary_20</item>
+    </style>
+
+    <style name="authLink">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/accent_50</item>
+    </style>
+
+    <style name="authLabel">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+    </style>
+
+    <!--    Welcome-->
+
+    <style name="welcomeLabel">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/accent_50</item>
+    </style>
+
+    <style name="welcomeTitle">
+        <item name="android:fontFamily">@font/poppins_thin</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/primary_50</item>
+    </style>
+
+    <style name="welcomeContent">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+    </style>
+
+    <!--    Finish-->
+
+    <style name="finishImage">
+        <item name="android:src">@drawable/huray</item>
+    </style>
+
+    <!--    App Bar-->
+
+    <style name="navBoldTitle">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primary_50</item>
+    </style>
+
+    <style name="navThinTitle">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primary_50</item>
+    </style>
+
+    <style name="navDotTitle">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/accent_50</item>
+    </style>
+
+    <style name="navIcon">
+        <item name="android:tint">@color/primary_50</item>
+    </style>
+
+    <!--    Dashboard-->
+
+    <style name="dashboardTitle">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="dashboardBtn">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary_50</item>
+    </style>
+
+    <style name="customButton">
+        <item name="android:background">@drawable/custom_button_bg</item>
+        <item name="android:backgroundTint">@color/neutral_5</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+        <item name="android:drawableTint">@color/neutral_80</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="dashboardBestsellerTitle">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="dashboardBestsellerAuther">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/neutral_60</item>
+    </style>
+
+    <style name="dashboardReleaseTitle">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neutral_80</item>
+    </style>
 </resources>
