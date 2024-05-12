@@ -1,7 +1,10 @@
 package Screens;
 
 import android.os.Bundle;
+<<<<<<< Updated upstream:app/src/main/java/Screens/ErrorActivity.java
 import android.view.View;
+=======
+>>>>>>> Stashed changes:app/src/main/java/Screens/DashboardActivity.java
 import android.view.WindowManager;
 
 import androidx.activity.EdgeToEdge;
@@ -12,12 +15,13 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.audiobook_app.R;
 
-public class ErrorActivity extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
+<<<<<<< Updated upstream:app/src/main/java/Screens/ErrorActivity.java
         setContentView(R.layout.activity_error);
       getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -26,6 +30,11 @@ public class ErrorActivity extends AppCompatActivity {
           public void onClick(View view) { ErrorActivity.super.onBackPressed();}
       });
 
+=======
+        setContentView(R.layout.activity_dashboard);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+>>>>>>> Stashed changes:app/src/main/java/Screens/DashboardActivity.java
     }
 }
 

@@ -1,5 +1,6 @@
 package Screens;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -12,29 +13,22 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.audiobook_app.R;
 
-public class RegisterActivity extends AppCompatActivity {
+public class FinishActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_register);
+        setContentView(R.layout.activity_finish);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-<<<<<<< Updated upstream
-
-        findViewById(R.id.cancelBtn).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.finishbtn).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) { RegisterActivity.super.onBackPressed();
-
+            public void onClick(View view) {
+                startActivity(new Intent(FinishActivity.this,DashboardActivity.class));
             }
         });
 
-=======
-        findViewById(R.id.cancelBtn).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) { RegisterActivity.super.onBackPressed();}
-        });
->>>>>>> Stashed changes
+
     }
 }

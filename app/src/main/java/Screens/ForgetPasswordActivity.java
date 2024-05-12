@@ -19,11 +19,21 @@ public class ForgetPasswordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_forget_password);
+<<<<<<< Updated upstream
        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                WindowManager.LayoutParams.FLAG_FULLSCREEN);
        findViewById(R.id.cancelBtn).setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) { ForgetPasswordActivity.super.onBackPressed();}
        });
+=======
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+    findViewById(R.id.cancelBtn).setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) { ForgetPasswordActivity.super.onBackPressed();}
+    });
+>>>>>>> Stashed changes
     }
 }

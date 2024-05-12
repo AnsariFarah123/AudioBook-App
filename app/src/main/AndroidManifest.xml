@@ -13,6 +13,7 @@
         android:theme="@style/Theme.AudioBook_App"
         tools:targetApi="31">
         <activity
+<<<<<<< Updated upstream
             android:name="Screens.WelcomeActivity"
             android:exported="false" />
         <activity
@@ -28,6 +29,23 @@
             android:name="Screens.RegisterActivity"
             android:exported="false" />
         <activity
+=======
+            android:name="Screens.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name="Screens.FinishActivity"
+            android:exported="false" />
+        <activity
+            android:name="Screens.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="Screens.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="Screens.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+>>>>>>> Stashed changes
             android:name="Screens.LoginActivity"
             android:exported="false" />
         <activity
