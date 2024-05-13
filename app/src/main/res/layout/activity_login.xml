@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< Updated upstream
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-=======
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
->>>>>>> Stashed changes
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< Updated upstream
     tools:context=".Screens.LoginActivity"
     style="@style/ScreenBg">
-=======
-    style="@style/ScreenBg"
-    tools:context="Screens.LoginActivity">
->>>>>>> Stashed changes
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +13,6 @@
         android:orientation="vertical"
         android:padding="30dp">
 
-<<<<<<< Updated upstream
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -113,22 +103,16 @@
             android:layout_weight="1"
             style="@style/outlineButton"/>
 
-    </LinearLayout>  <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
-=======
-        <ImageView
-            android:layout_width="wrap_content"
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            style="@style/authLogo"/>
->>>>>>> Stashed changes
+            android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-<<<<<<< Updated upstream
+            android:lay out_height="wrap_content"
             android:text="Don’t have an accoun’t ?"
             style="@style/authLabel"/>
 
@@ -140,8 +124,7 @@
             android:layout_marginLeft="5dp"
             style="@style/authLink"/>
 
-    </LinearLayout>
-=======
+            <TextView
             android:text="Login to Your Account"
             android:layout_marginTop="20dp"
             style="@style/authTitle"/>
@@ -223,30 +206,33 @@
                 android:layout_weight="1"
                 style="@style/outlineButton"/>
 
+
+
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
+    </LinearLayout>        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center">
+            android:text="Don’t have an accoun’t ?"
+            style="@style/authLabel"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Don’t have an accoun’t ?"
-                style="@style/authLabel"/>
-
-            <TextView
-                android:id="@+id/registerBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Register"
-                android:layout_marginLeft="5dp"
-                style="@style/authLink"/>
-
-        </LinearLayout>
->>>>>>> Stashed changes
+        <TextView
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginLeft="5dp"
+            style="@style/authLink"/>
 
     </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
 
 </ScrollView>
