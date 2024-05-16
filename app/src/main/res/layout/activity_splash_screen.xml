@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/ScreenBg"
-    tools:context="Screens.SplashScreenActivity">
+    tools:context=".Screens.SplashScreenActivity">
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="140dp"

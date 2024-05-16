@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/ScreenBg"
-    tools:context="Screens.DashboardActivity">
+    tools:context=".Screens.DashboardActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,6 +45,7 @@
                 style="@style/navDotTitle"/>
 
             <ImageView
+                android:id="@+id/settingBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/setting"
@@ -68,6 +69,7 @@
                 style="@style/dashboardTitle"/>
 
             <TextView
+                android:id="@+id/seeMoreBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="See more"

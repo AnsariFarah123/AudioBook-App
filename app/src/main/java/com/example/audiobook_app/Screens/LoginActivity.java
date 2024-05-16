@@ -1,4 +1,4 @@
-package Screens;
+package com.example.audiobook_app.Screens;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,9 +7,6 @@ import android.view.WindowManager;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.audiobook_app.R;
 
@@ -26,22 +23,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
-<<<<<<< Updated upstream
 
-=======
-            }
-        });
-        findViewById(R.id.forgotBtn).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, ForgetPasswordActivity.class));
-            }
-        });
-        findViewById(R.id.loginBtn).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, WelcomeActivity));
->>>>>>> Stashed changes
             }
         });
         findViewById(R.id.forgotBtn).setOnClickListener(new View.OnClickListener() {
@@ -54,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(LoginActivity.this, WelcomeActivity.class));
+
             }
         });
 

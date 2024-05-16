@@ -13,55 +13,37 @@
         android:theme="@style/Theme.AudioBook_App"
         tools:targetApi="31">
         <activity
-<<<<<<< Updated upstream
-            android:name="Screens.WelcomeActivity"
+            android:name=".Screens.EmailSentActivity"
             android:exported="false" />
         <activity
-            android:name="Screens.Activity"
+            android:name=".Screens.SubscriptionActivity"
             android:exported="false" />
         <activity
-            android:name="Screens.ForgetPasswordActivity"
+            android:name=".Screens.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name="Screens.ForgetActivity"
+            android:name=".Screens.ErrorActivity"
             android:exported="false" />
         <activity
-            android:name="Screens.RegisterActivity"
+            android:name=".Screens.SeeMoreActivity"
             android:exported="false" />
         <activity
-=======
-            android:name="Screens.DashboardActivity"
+            android:name=".Screens.ForgetPasswordActivity"
             android:exported="false" />
         <activity
-            android:name="Screens.FinishActivity"
+            android:name=".Screens.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name="Screens.WelcomeActivity"
+            android:name=".Screens.FinishActivity"
             android:exported="false" />
         <activity
-            android:name="Screens.RegisterActivity"
+            android:name=".Screens.WelcomeActivity"
             android:exported="false" />
         <activity
-            android:name="Screens.ForgetPasswordActivity"
+            android:name=".Screens.SplashScreenActivity"
             android:exported="false" />
         <activity
->>>>>>> Stashed changes
-            android:name="Screens.LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name="Screens.ErrorActivity"
-            android:exported="false" />
-        <activity
-            android:name="Screens.SplashScreenActivity"
-            android:exported="false" />
-        <activity
-            android:name="Screens.OnBoardingActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreenActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashActivity"
+            android:name=".Screens.OnBoardingActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

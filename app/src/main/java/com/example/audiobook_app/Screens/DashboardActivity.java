@@ -1,18 +1,14 @@
-package Screens;
+package com.example.audiobook_app.Screens;
 
 import android.content.Intent;
 import android.os.Bundle;
-<<<<<<< Updated upstream:app/src/main/java/Screens/ErrorActivity.java
+
 import android.view.View;
-=======
->>>>>>> Stashed changes:app/src/main/java/Screens/DashboardActivity.java
+
 import android.view.WindowManager;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.audiobook_app.R;
 
@@ -32,10 +28,10 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.settingsbtn).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.settingBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent((DashboardActivity.this, SettingsActivity.class));
+                startActivity(new Intent(DashboardActivity.this, SettingsActivity.class));
             }
         });
     }

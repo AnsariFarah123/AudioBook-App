@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< Updated upstream
     <item name="cancelBtn" type="id">cancelBtn</item>
-=======
+
     <item name="backbtn" type="id">backbtn</item>
     <item name="finishbtn" type="id">finishbtn</item>
->>>>>>> Stashed changes
 </resources>
