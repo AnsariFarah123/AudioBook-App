@@ -1,6 +1,9 @@
 package com.example.audiobook_app.Screens;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.WindowManager;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +13,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.audiobook_app.R;
 
+import java.util.Calendar;
+
 public class SettingsActivity extends AppCompatActivity {
 
     @Override
@@ -17,10 +22,12 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_settings);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+
+
+
+
     }
 }

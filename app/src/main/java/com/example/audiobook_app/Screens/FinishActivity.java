@@ -1,5 +1,6 @@
 package com.example.audiobook_app.Screens;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,7 @@ import com.example.audiobook_app.R;
 
 public class FinishActivity extends AppCompatActivity {
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
