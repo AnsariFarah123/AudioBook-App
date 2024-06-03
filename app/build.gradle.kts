@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.androidApplication)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -34,11 +35,15 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+//    implementation(libs.firebase.auth)
+//    implementation(libs.firebase.database)
+//    implementation(libs.firebase.analytics)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+//    implementation(libs.lottie)
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation("pl.droidsonroids.gif:android-gif-drawable:1.2.28")
-    implementation("com.airbnb.android:lottie:3.4.0")
+//    implementation("com.airbnb.android:lottie:3.4.0")
 
 }
